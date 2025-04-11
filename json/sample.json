@@ -1,0 +1,370 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "properties": {
+      "day": {
+        "id": "abc",
+        "date": {
+          "start": "2024-01-01"
+        }
+      },
+      "title": {
+        "id": "def",
+        "rich_text": [
+          {
+            "plain_text": "サンプル条項1"
+          }
+        ]
+      },
+      "status": {
+        "id": "ghi",
+        "multi_select": [
+          {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "name": "draft"
+          }
+        ]
+      },
+      "number": {
+        "id": "title",
+        "title": [
+          {
+            "plain_text": "第2条"
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "id": "a1b2c3d4-e5f6-0000-0000-567890abcdef",
+        "parent": {
+          "page_id": "a1b2c3d4-e5f6-9999-ffff-567890abcdef"
+        },
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "テスト組織のメンバーは、毎月以下の料金を支払う必要がある。(1)"
+              }
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "a1b2c3d4-e5f6-1111-aaaa-567890abcdef",
+            "parent": {
+              "type": "block_id",
+              "block_id": "a1b2c3d4-e5f6-0000-0000-567890abcdef"
+            },
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "基本料金：1000円(1)"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "a1b2c3d4-e5f6-2222-bbbb-567890abcdef",
+            "parent": {
+              "block_id": "a1b2c3d4-e5f6-0000-0000-567890abcdef"
+            },
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "オプションサービス利用料：別途請求(1)"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2c3d4e5-f678-0123-4567-890abcdef1234",
+    "properties": {
+      "day": {
+        "id": "def",
+        "date": {
+          "start": "2024-02-15"
+        }
+      },
+      "title": {
+        "id": "ghi",
+        "rich_text": [
+          {
+            "plain_text": "サンプル条項2"
+          }
+        ]
+      },
+      "status": {
+        "id": "jkl",
+        "multi_select": [
+          {
+            "id": "11111111-1111-1111-1111-111111111111",
+            "name": "active"
+          }
+        ]
+      },
+      "number": {
+        "id": "title",
+        "title": [
+          {
+            "plain_text": "第3条"
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "id": "b2c3d4e5-f678-1111-2222-890abcdef1234",
+        "parent": {
+          "page_id": "b2c3d4e5-f678-aaaa-bbbb-890abcdef1234"
+        },
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "新しいメンバーは、以下の手続きを行う必要がある。(2)"
+              }
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "b2c3d4e5-f678-3333-cccc-890abcdef1234",
+            "parent": {
+              "type": "block_id",
+              "block_id": "b2c3d4e5-f678-1111-2222-890abcdef1234"
+            },
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "書類の提出(2)"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "b2c3d4e5-f678-4444-dddd-890abcdef1234",
+            "parent": {
+              "block_id": "b2c3d4e5-f678-1111-2222-890abcdef1234"
+            },
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "面接(2)"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c3d4e5f6-7890-2345-6789-0abcdef123456",
+    "properties": {
+      "day": {
+        "id": "ghi",
+        "date": {
+          "start": "2024-03-01"
+        }
+      },
+      "title": {
+        "id": "jkl",
+        "rich_text": [
+          {
+            "plain_text": "サンプル条項3"
+          }
+        ]
+      },
+      "status": {
+        "id": "mno",
+        "multi_select": [
+          {
+            "id": "22222222-2222-2222-2222-222222222222",
+            "name": "pending"
+          }
+        ]
+      },
+      "number": {
+        "id": "title",
+        "title": [
+          {
+            "plain_text": "第4条"
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "id": "c3d4e5f6-7890-5555-6666-0abcdef123456",
+        "parent": {
+          "page_id": "c3d4e5f6-7890-eeee-ffff-0abcdef123456"
+        },
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "イベントへの参加は、以下の条件を満たす必要がある。(3)"
+              }
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "c3d4e5f6-7890-7777-8888-0abcdef123456",
+            "parent": {
+              "type": "block_id",
+              "block_id": "c3d4e5f6-7890-5555-6666-0abcdef123456"
+            },
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "事前登録(3)"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "c3d4e5f6-7890-9999-aaaa-0abcdef123456",
+            "parent": {
+              "block_id": "c3d4e5f6-7890-5555-6666-0abcdef123456"
+            },
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "参加費の支払い(3)"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d4e5f678-9012-3456-7890-abcdef12345678",
+    "properties": {
+      "day": {
+        "id": "jkl",
+        "date": {
+          "start": "2024-04-10"
+        }
+      },
+      "title": {
+        "id": "mno",
+        "rich_text": [
+          {
+            "plain_text": "サンプル条項4"
+          }
+        ]
+      },
+      "status": {
+        "id": "pqr",
+        "multi_select": [
+          {
+            "id": "33333333-3333-3333-3333-333333333333",
+            "name": "completed"
+          }
+        ]
+      },
+      "number": {
+        "id": "title",
+        "title": [
+          {
+            "plain_text": "第5条"
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "id": "d4e5f678-9012-aaaa-bbbb-abcdef12345678",
+        "parent": {
+          "page_id": "d4e5f678-9012-cccc-dddd-abcdef12345678"
+        },
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "退会する場合は、以下の手続きを行う。(4)"
+              }
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "d4e5f678-9012-eeee-ffff-abcdef12345678",
+            "parent": {
+              "type": "block_id",
+              "block_id": "d4e5f678-9012-aaaa-bbbb-abcdef12345678"
+            },
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "退会届の提出(4)"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "d4e5f678-9012-1111-2222-abcdef12345678",
+            "parent": {
+              "block_id": "d4e5f678-9012-aaaa-bbbb-abcdef12345678"
+            },
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "未払い料金の清算(4)"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
