@@ -65,6 +65,7 @@ IoT 部への入部同意サイト
 
 - **バックエンド:** `http://localhost:3000` で動作する Express の API サーバーでテストしています。
   - `cd mock-server && pnpm i && pnpm dev` で起動します。
+  - 実際にデータ取得を試す場合は以下の手順を行ってください。
   - `https://www.notion.so/profile/integrations` からトークンを用意
   - Notionの使用するテーブルのdatabase_idを用意
   - envを作成して `.env.sample` のように記述
